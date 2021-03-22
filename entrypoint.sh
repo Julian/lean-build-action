@@ -2,4 +2,4 @@
 
 PATH="$PATH:/root/.elan/bin"
 leanproject get-mathlib-cache || true 
-leanpkg test
+leanpkg build
